@@ -176,3 +176,94 @@ The second stage focuses on preparing the selected features and developing the m
 - Gradient Boosting is an ensemble learning technique that builds multiple decision trees sequentially. Each subsequent tree attempts to improve the errors made by the previous models.
 
 - The final model combines these learners to produce a stronger predictive model.
+
+  #📏 Model Evaluation
+
+## The regression model was evaluated using standard regression metrics.
+
+- Mean Absolute Error — MAE
+
+- MAE measures the average absolute difference between the actual house prices and the predicted house prices.
+
+- A lower MAE indicates better performance.
+
+- Root Mean Squared Error — RMSE
+
+- RMSE measures the square root of the average squared prediction error.
+
+- RMSE gives greater importance to larger errors.
+
+- A lower RMSE indicates better performance.
+
+- R² Score
+
+- R² measures how much of the variation in the target variable is explained by the model.
+
+- A value closer to 1 generally indicates stronger explanatory performance.
+
+# Model Results
+
+## The final model evaluation results are documented in the machine learning notebook.
+
+- Metric	Result
+- MAE	Add your notebook result
+- RMSE	Add your notebook result
+- R² Score	Add your notebook result
+
+- Note: Replace the three placeholders above with the exact values produced by your notebook. Do not estimate or invent these numbers.
+
+# 🖥️ Project 3 — Interactive House Price Prediction
+## Notebook
+- User_Interface_Prediction.ipynb
+
+- The third stage focuses on creating an interactive interface for making house-price predictions.
+
+- The interface allows users to provide property information such as:
+
+- Lot Frontage
+- Lot Area
+- Overall Quality
+- Year Built
+- Year Remodeled/Added
+- Masonry Veneer Area
+- Finished Basement Area
+- Ground Living Area
+- Garage Cars
+- Garage Area
+
+- The trained machine learning model processes these values and generates a predicted house price.
+
+# 💾 Model Serialization
+
+- After training, the machine learning model was saved using Joblib.
+
+# housing_model.pkl
+
+- This allows the trained model to be loaded later without retraining it.
+
+- The Flask application loads this saved model and uses it to generate predictions.
+
+# 🌐 Flask Web Application
+
+## A Flask-based web application was developed to provide a user-friendly interface for house-price prediction.
+
+# Backend
+- housing_predictor_app.py
+- Frontend
+- templates/index.html
+
+- The application works through the following process:
+
+- User enters property details
+        ↓
+- HTML form submits the values
+        ↓
+- Flask receives the input
+        ↓
+- Saved ML model is loaded
+        ↓
+- Model generates prediction
+        ↓
+- Predicted house price is displayed
+
+## This converts the machine learning model into a usable prediction application rather than keeping it limited to a Jupyter Notebook.
