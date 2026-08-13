@@ -267,3 +267,159 @@ The second stage focuses on preparing the selected features and developing the m
 - Predicted house price is displayed
 
 ## This converts the machine learning model into a usable prediction application rather than keeping it limited to a Jupyter Notebook.
+
+# 📁 Project Structure
+Ames-Housing-Price-Prediction/
+│
+├── README.md
+├── AmesHousing.csv
+├── requirements.txt
+│
+├── notebooks/
+│   ├── Capstone 1 housing.ipynb
+│   ├── housing model.ipynb
+│   └── User_Interface_Prediction.ipynb
+│
+├── model/
+│   └── housing_model.pkl
+│
+├── app/
+│   ├── housing_predictor_app.py
+│   └── templates/
+│       └── index.html
+│
+└── screenshots/
+    ├── eda.png
+    ├── feature-selection.png
+    ├── model-evaluation.png
+    ├── flask-app.png
+    └── prediction-result.png
+# 🛠️ Technologies & Tools
+-Programming Language
+Python
+Data Analysis
+Pandas
+NumPy
+Data Visualization
+Matplotlib
+Seaborn
+Machine Learning
+Scikit-learn
+Gradient Boosting Regressor
+Feature Selection
+Correlation Analysis
+SelectKBest
+Lasso Regression
+Recursive Feature Elimination (RFE)
+Model Persistence
+Joblib
+Web Application
+Flask
+HTML
+Development Environment
+Jupyter Notebook
+Anaconda
+Version Control
+Git
+GitHub
+# 📸 Project Screenshots
+## Data Analysis
+
+
+
+
+Feature Selection / Model Development
+
+
+
+
+Model Evaluation
+
+
+
+
+Flask Prediction Application
+
+
+
+
+House Price Prediction Result
+
+
+
+
+# ▶️ How to Run the Project
+1. Clone the repository
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+2. Navigate to the project
+cd Ames-Housing-Price-Prediction
+3. Install dependencies
+pip install -r requirements.txt
+4. Run the Flask application
+
+Navigate to the application folder:
+
+cd app
+
+Then run:
+
+python housing_predictor_app.py
+5. Open the application
+
+Open the local Flask URL shown in the terminal, usually:
+
+http://127.0.0.1:5000/
+# 📚 Key Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+Python Programming
+Data Analysis
+Exploratory Data Analysis
+Correlation Analysis
+Feature Selection
+Data Preprocessing
+Regression
+Gradient Boosting
+Train-Test Split
+Model Evaluation
+Model Serialization
+Interactive Prediction
+Flask Application Development
+GitHub Project Documentation
+# 💡 Key Learning Outcomes
+
+Through this project, I gained practical experience in building an end-to-end machine learning solution.
+
+The major learning outcomes include:
+
+Understanding a real-world structured housing dataset.
+Performing exploratory data analysis.
+Identifying important predictors of house prices.
+Applying multiple feature-selection techniques.
+Developing a regression model using Gradient Boosting.
+Evaluating model performance using regression metrics.
+Saving and loading a trained machine learning model.
+Creating an interactive prediction interface.
+Integrating a machine learning model with Flask.
+Organizing and documenting a complete machine learning project using GitHub.
+# 🔮 Future Improvements
+
+Possible future enhancements include:
+
+Hyperparameter tuning
+K-fold cross-validation
+Comparing additional regression algorithms
+Advanced feature engineering
+Hyperparameter optimization
+Model explainability using SHAP
+Improved web interface
+Cloud deployment
+REST API integration
+Automated machine learning pipeline
+#👩‍💻 Author
+## Sushma Verma
+
+Data Analytics | Python | SQL | Power BI | Tableau | Machine Learning
+
+# ⭐ This project demonstrates an end-to-end machine learning workflow for residential house-price prediction, from data analysis and feature selection to model development and Flask-based prediction.
